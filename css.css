@@ -71,7 +71,7 @@ body{
     color: #252323;;
 }
 
-@media (max-width:450px) {
+@media (max-width:500px) {
     .txt_name{
         font-size: 40px;
     }
