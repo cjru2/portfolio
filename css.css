@@ -1,0 +1,83 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* color: #fff; */
+    background-color: #f5e8e8;
+    margin: 0;
+    padding: 0;
+}
+.container-fluild{
+    margin: 0;
+    padding: 0;
+}
+
+.mainNav_style{ 
+    /* background-image: linear-gradient(to bottom right, #e8dff5,#bf8bff); */
+    background-color: #f5e8e8;
+    padding: 10px;
+}
+
+.mainnav_text{
+    color: #653780;
+    font-size: 14px;
+    font-family: Verdana, sans-serif;
+    cursor: pointer;
+}
+.section1{
+    height: 100vh;
+    background-color: #f5e8e8;
+    margin:0px;
+    padding: 0px;
+}
+
+.txt_greeting{
+    font-weight: bold;
+    font-size: 50px;
+    font-family: 'Cedarville Cursive' !important;
+    color: #252323;
+}
+.txt_name{
+    font-family:Arial, san-serif;
+    color: #653780;
+    font-size: 70px;
+}
+.txt_description{
+    font-size: 17px;
+    color: #252323;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 2px;
+}
+.emptybox1{
+    height: 160px;
+}
+.emptybox2{
+    background-color: #fff;
+    height: 100vh;
+    margin:0px;
+    padding: 0px;
+    color: #72617d;
+}
+.title_aboutme{
+    font-size: 23px;
+    font-weight: bold;
+    color: #653780;
+}
+.content_aboutme{
+    font-size: 16px;
+    color: #636263;
+}
+
+
+@media (max-width:450px) {
+    .txt_name{
+        font-size: 30px;
+    }
+    .emptybox2{
+        height: 100;
+    }
+}
+
+@media (max-width:860px) {
+    .emptybox2{
+        height: 130vh;
+    }
+}
