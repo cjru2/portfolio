@@ -75,6 +75,9 @@ body{
     .txt_name{
         font-size: 40px;
     }
+    .extra_space{
+        margin-top: 0px !important;
+    }
 }
 
 @media (max-width:860px) {
