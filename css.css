@@ -54,13 +54,13 @@ body{
     height: 100vh;
     margin:0px;
     padding: 0px;
-    color: #72617d;  
+    color: #72617d; 
 }
 
-.div_AboutMe{
-    background-image: url("me.jpg");
-    background-repeat: no-repeat;
+.img_me{
+    width: 100%;
 }
+
 .title_aboutme{
     font-size: 23px;
     font-weight: bold;
@@ -71,18 +71,14 @@ body{
     color: #252323;;
 }
 
-
 @media (max-width:450px) {
     .txt_name{
         font-size: 40px;
     }
-    .emptybox2{
-        height: 100;
-    }
 }
 
 @media (max-width:860px) {
-    .emptybox2{
-        height: 130vh;
+    .div_AboutMe{
+        height: auto;
     }
 }
