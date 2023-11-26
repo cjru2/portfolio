@@ -78,6 +78,9 @@ body{
     .extra_space{
         margin-top: 0px !important;
     }
+    .div_Work2{
+        padding-top: 50px;
+    }
 }
 
 @media (max-width:860px) {
