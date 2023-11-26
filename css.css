@@ -55,7 +55,6 @@ body{
 }
 .emptybox2{
     background-color: #fff;
-    height: 100vh;
     margin:0px;
     padding: 0px;
     color: #72617d; 
@@ -63,6 +62,14 @@ body{
 
 .img_me{
     width: 100%;
+}
+
+.div_Work2{
+    height: 100vv;
+}
+
+.div_AboutMe{
+    height: 100vv;
 }
 
 .title_aboutme{
@@ -83,7 +90,8 @@ body{
         margin-top: 0px !important;
     }
     .div_Work2{
-        padding-top: 80px !important;
+        padding-top: 50px !important;
+        height: auto;
     }
 }
 
