@@ -45,10 +45,10 @@ body{
     font-size: 70px;
 }
 .txt_description{
-    font-size: 17px;
+    font-size: 15px;
     color: #252323;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    letter-spacing: 2px;
+    letter-spacing: 3px;
 }
 .emptybox1{
     height: 160px;
@@ -58,6 +58,7 @@ body{
     margin:0px;
     padding: 0px;
     color: #72617d; 
+    height: 100%;
 }
 
 .img_me{
@@ -65,11 +66,14 @@ body{
 }
 
 .div_Work2{
-    height: 100vv;
+    height: auto;
+    background-color: #fff;
+    padding-bottom: 5%;
 }
 
 .div_AboutMe{
-    height: 100vv;
+    height: 100vh;
+    background-color: #fff;
 }
 
 .title_aboutme{
@@ -86,6 +90,16 @@ body{
     width: 85%;
 }
 
+.div_lang{
+    background-color: #f5e8e8;
+    color: #653780;
+    width: fit-content;
+    padding: 8px;
+    margin: 1px;
+    border-radius: 10px 10px 10px 10px;
+    display: inline-block;
+}
+
 @media (max-width:500px) {
     .txt_name{
         font-size: 40px;
@@ -93,13 +107,13 @@ body{
     .extra_space{
         margin-top: 0px !important;
     }
-    .div_Work2{
-        height: auto;
-    }
 }
 
 @media (max-width:860px) {
     .div_AboutMe{
+        height: auto;
+    }
+    .div_Work2{
         height: auto;
     }
 }
