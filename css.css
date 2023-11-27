@@ -79,7 +79,11 @@ body{
 }
 .content_aboutme{
     font-size: 16px;
-    color: #252323;;
+    color: #252323;
+}
+
+.inside_content{
+    width: 85%;
 }
 
 @media (max-width:500px) {
@@ -90,7 +94,6 @@ body{
         margin-top: 0px !important;
     }
     .div_Work2{
-        padding-top: 50px !important;
         height: auto;
     }
 }
