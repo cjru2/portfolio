@@ -130,7 +130,10 @@ body{
     .extra_space{
         margin-top: 0px !important;
     }
-}
+    .add__space{
+        padding-top: 40px;
+    }
+}   
 
 @media (max-width:860px) {
     .div_AboutMe{
