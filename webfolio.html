@@ -10,8 +10,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
-
-    <title>Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="CJ.png">
+    <title>Webfolio | Carla</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="css.css" rel="stylesheet">
@@ -26,24 +26,27 @@
           <a class="nav-link mainnav_text btn_AboutMe">ABOUT ME</a>
         </li>
         <li class="nav-item ">
-          <a class="nav-link mainnav_text btn_Work">WORK EXPERIENCE</a>
+          <a class="nav-link mainnav_text btn_Work">WORKS</a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link mainnav_text btn_Contact">CONTACT</a>
         </li>
       </ul>
-      <div class="row section1">
-        <div class="col-12">
+      <div class="row section1 ">
+        <div class="col-12 ">
           <div class="row">
             <div class="col-12 emptybox1"></div>
           </div>  
           <div class="row">
             <div class="col text-center">
               <span class="txt_greeting">hello, I'm</span>
-              <p class="txt_name">CARLA RUAYANA</p>
-              <p class="txt_description">SOFTWARE DEVELOPER</p>
+              <p class="txt_name">Carla Joy</p>
+              <p class="txt_description">SOFTWARE DEVELOPER</p>         
             </div>
-          </div>
-        </div>
+          </div>       
+        </div>       
       </div>    
-      </div>
+    </div>
       <div class="container-fluid">  
       <div class="emptybox2 div_AboutMe pt-5">
         <div class="row">
@@ -65,9 +68,8 @@
                     <p>My experience spans across various programming languages, scripts, frameworks, and databases, including HTML, CSS, Bootstrap, JavaScript, NodeJS, PHP, ASP.NET, C#, VueJS, SQL Server, MongoDB, ExpressJS, among others.</p>
                       <p>When I'm not immersed in coding, you'll likely find me comfortably clad in my pajamas, engrossed in a good book or indulging in early 2000s romcom movies. Music also holds a special place in my life.
                         Additionally, I have a fondness for writing journal, poetry and songs, though they often remain unfinished, tucked away in the drafts of my note app! :P</p>
-                    <div class="pt-2"></div>
-                    <i class="fa fa-envelope" aria-hidden="true"></i>
-                    <p>cjruayana@gmail.com</p>
+                  
+                    
                   </div>
                 </div>
             </div>
@@ -132,8 +134,27 @@
                 <div class="div_lang">MySQL</div>
               </div>
               <div class="col-sm"></div>
-            </div>
-            
+            </div>  
+          </div>     
+        </div>
+      </div>
+      <div class="container-fluid">  
+        <div class="emptybox2 div_Contact pt-5">
+          <div class="row">
+            <div class="col-sm-12 pt-1 text-center">
+                  <div class="emptybox1"></div>
+                  <div class="content_aboutme pt-3 d-flex justify-content-center">
+                    <div class="inside_content">
+                      <p class="txt_contact">CONTACT</p>
+                      <p>Get in touch via social media</p>
+                      <a href="https://www.instagram.com/cjruru_/" target="_blank" class="fa fa-instagram p-1 icon_socials" aria-hidden="true"></a>
+                      <a href="https://www.linkedin.com/in/carla-joy-r-555181290/" target="_blank" class="fa fa-linkedin p-1 icon_socials" aria-hidden="true"></a>
+                      <p class="pt-4">or</p>
+                      <span>email me:</span><br/>
+                      <p>cjruayana@gmail.com</p>
+                    </div>
+                  </div>
+              </div>
           </div>     
         </div>
       </div>
@@ -156,4 +177,10 @@
           scrollTop: $(".div_Work2").offset().top},
           'slow');
   });
+  $(".btn_Contact").click(function() {
+      $('html,body').animate({
+          scrollTop: $(".div_Contact").offset().top},
+          'slow');
+  });
+  
 </script>
